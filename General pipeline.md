@@ -21,24 +21,22 @@ When the work is done, you'll want to create a PR into develop
 ```
 git flow feature publish FEATURE_NAME
 ```
-gh pr create
+
 
 ## Setup project
 
-install php-cs-fixer
-install lasso 
-install larastan
-
+```bash
 composer require friendsofphp/php-cs-fixer --dev
 composer require league/flysystem-aws-s3-v3 "~1.0"
 composer require sammyjo20/lasso
 composer require --dev nunomaduro/larastan
 
 php artisan vendor:publish --tag=lasso-config
+```
 
-configure lasso (config file, filesystem, env) locally and on the server
+Configure lasso (config file, filesystem, env) locally and on the server. Don't forget to change the `upload_to` key in the lasso config!
 
-delete assets and add them in gitignore
+Delete assets and add them in gitignore
 
 ```	
 /public/app/  
