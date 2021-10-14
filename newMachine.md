@@ -116,6 +116,12 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo snap install slack --classic
 ```
 
+## Install Discord
+
+```shell
+sudo snap install discord
+```
+
 ## Manually install these 
 
 * [MySQL workbench](https://dev.mysql.com/downloads/workbench/)
