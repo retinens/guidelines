@@ -17,10 +17,17 @@ sudo apt install gh
 Follow the auth process and select the SSH auth method.
 
 
-## Install Oh My ZSH
+## Install Oh My ZSH and configure the plugins
 
 ```shell
- sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+```
+
+Edit the `.zshrc` file to have plugins enabled
+```
+plugins=(git z laravel zsh-completions zsh-autosuggestions)
 ```
 
 ## Install PHP & composer
