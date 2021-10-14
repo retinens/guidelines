@@ -104,6 +104,11 @@ jetbrains-toolbox
 sudo apt install snapd
 sudo snap install gimp
 ```
+## Install GITKRAKEN
+```shell
+wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
+sudo dpkg -i gitkraken-amd64.deb
+```shell
 
 ## Install Google Chrome
 ```shell
