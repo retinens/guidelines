@@ -27,7 +27,7 @@ git flow feature publish FEATURE_NAME
 
 ```bash
 composer require friendsofphp/php-cs-fixer --dev
-composer require league/flysystem-aws-s3-v3 "~1.0"
+composer require league/flysystem-aws-s3-v3 "~3.0"
 composer require sammyjo20/lasso
 composer require --dev nunomaduro/larastan
 
