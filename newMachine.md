@@ -34,7 +34,7 @@ plugins=(git z laravel zsh-completions zsh-autosuggestions)
 
 ```shell
 sudo add-apt-repository ppa:ondrej/php
-sudo apt install php-cli php-common php-curl php-mbstring php-opcache php-readline php-xml php-zip php-mysql php-gd
+sudo apt install php-cli php-common php-curl php-mbstring php-readline php-xml php-zip php-mysql php-gd
 ```
 ```shell
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
